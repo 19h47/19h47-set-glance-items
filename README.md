@@ -2,6 +2,11 @@
 
 Set glance items to the __WordPress__ admin dashboard.
 
+`SetGlanceItems` is class that takes two arguments: an array of array taxonomies and an array of arrays of posts.    
+Each of this array takes two keys:
+- `name`: the name of the item
+- `code`: the dashicon code
+
 ## Usage
 
 ```php
