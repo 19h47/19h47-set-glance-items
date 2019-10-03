@@ -12,4 +12,4 @@
  * @package 19h47/set-glance-items
  */
 
-require plugin_dir_path( __FILE__ ) . 'admin/class-set-glance-items.php';
+require plugin_dir_path( __FILE__ ) . 'admin/class-setglanceitems.php';
