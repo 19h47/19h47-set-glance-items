@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/19h47/19h47-set-glance-items
  * Description: Set glance items
  * Version: 1.0.0
- * Author: Jérémy Levron (jeremylevron@19h47.fr)
+ * Author: Jérémy Levron
  * Author URI: https://www.19h47.fr
  *
  * @link https://github.com
