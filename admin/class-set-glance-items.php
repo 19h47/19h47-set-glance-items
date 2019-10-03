@@ -35,8 +35,8 @@ class Set_Glance_Items {
 		$this->taxonomies = $taxonomies;
 		$this->post_types = $post_types;
 
-		add_filter( 'dashboard_glance_items', array( $this, 'set_a_glance_taxonomies' ), 10, 1 );
-		add_filter( 'dashboard_glance_items', array( $this, 'set_a_glance_posts' ), 10, 1 );
+		add_filter( 'dashboard_glance_items', array( $this, 'set_glance_taxonomies' ), 10, 1 );
+		add_filter( 'dashboard_glance_items', array( $this, 'set_glance_posts' ), 10, 1 );
 
 		add_action( 'admin_enqueue_scripts', array( $this, 'css' ) );
 	}
@@ -49,7 +49,7 @@ class Set_Glance_Items {
 	 * @access public
 	 * @return $items
 	 */
-	public function set_a_glance_taxonomies( array $items ) {
+	public function set_glance_taxonomies( array $items ) {
 		$args = array(
 			'public'   => true,
 			'_builtin' => false,
@@ -95,7 +95,7 @@ class Set_Glance_Items {
 	 *
 	 * @return $items
 	 */
-	public function set_a_glance_posts( array $items ) {
+	public function set_glance_posts( array $items ) {
 		$args     = array(
 			'public'   => true,
 			'_builtin' => false,

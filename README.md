@@ -37,6 +37,9 @@ To use it directly inside your theme add this lines to your `composer.json` file
 
 ```json
 {
+    "require": {
+        "19h47/set-glance-items": "dev-master"
+    },
     "repositories": [
         {
             "type": "git",

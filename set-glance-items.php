@@ -3,7 +3,7 @@
  * Plugin Name: Set glance items
  * Plugin URI: https://github.com/19h47/19h47-set-glance-items
  * Description: Set glance items
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Jérémy Levron
  * Author URI: https://www.19h47.fr
  *
