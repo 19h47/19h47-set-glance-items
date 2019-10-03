@@ -2,13 +2,13 @@
 /**
  * Set glance items
  *
- * @package 19h47/set-glance-items
+ * @package SetGlanceItems
  */
 
 /**
  * Set glance items class
  */
-class SetGlanceItems {
+class Set_Glance_Items {
 	/**
 	 * Taxonomies
 	 *

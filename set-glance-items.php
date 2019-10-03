@@ -9,7 +9,7 @@
  *
  * @link https://github.com
  * @since 1.0.0
- * @package 19h47/set-glance-items
+ * @package SetGlanceItems
  */
 
-require plugin_dir_path( __FILE__ ) . 'admin/class-setglanceitems.php';
+require plugin_dir_path( __FILE__ ) . 'admin/class-set-glance-items.php';
